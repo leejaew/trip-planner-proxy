@@ -6,3 +6,4 @@ compatibility_date = "2026-01-11"
 [vars]
 USER_AGENT = "TripPlannerGPT/1.0"
 CONTACT_EMAIL = "lee.jaewang@gmail.com"
+REFERER = "https://trip-planner-proxy.lee-jaewang.workers.dev/"
