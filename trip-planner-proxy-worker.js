@@ -3,7 +3,7 @@ export default {
     const url = new URL(request.url);
     const path = url.pathname;
 
-    const userAgent = env.USER_AGENT || "TripPlannerGPT/1.0";
+    const userAgent = env.USER_AGENT || "";
     const contactEmail = env.CONTACT_EMAIL || "";
 
     function json(data, status = 200) {
