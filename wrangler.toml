@@ -2,7 +2,7 @@ name = "trip-planner-proxy"
 main = "trip-planner-proxy-worker.js"
 compatibility_date = "2026-01-11"
 
-# Environment variables (set these in the Cloudflare dashboard or via wrangler)
-# [vars]
+# Environment variables
+[vars]
 USER_AGENT = "TripPlannerGPT/1.0"
 CONTACT_EMAIL = "lee.jaewang@gmail.com"
